@@ -3,6 +3,8 @@
 # -----------------------------------------------------------------------------
 # SCRIPT DE CONVERSÃO PFX PARA PEM (AWS ACM)
 # -----------------------------------------------------------------------------
+# Para checar se o certificado tem ou não cadeia, utilizar o comando abaixo  
+# openssl pkcs12 -in seu_arquivo.pfx -nokeys -info
 #
 # OBJETIVO:
 # Este script converte um certificado digital no formato PFX (PKCS#12) para
